@@ -46,3 +46,13 @@ def print_details(**kwargs):
         print(f"{key}: {value}")
 print_details(name = "Rishabh", age = 26, company = "Qualcomm", city = "Hyderabad")
 print_details(name = "Rishabh", age = 26, company = "Qualcomm", city = "Hyderabad", country = "India")
+
+my_dict = {}
+for i in range(1, 5):
+    key = input(f"Enter the key for item {i} : ")
+    value = input(f"Enter the value for key{i} : ")
+    my_dict[key] = value
+print("The dictionary is: ", my_dict)
+print("The keys are: ", my_dict.keys())
+print("The values are: ", my_dict.values())
+print("The items are: ", my_dict.items())
